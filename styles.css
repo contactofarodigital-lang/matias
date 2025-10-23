@@ -1,0 +1,182 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Paleta GTA 6 - nombres sencillos */
+    --rosa-neon: #ff2d95;       /* rosa intenso / neón */
+    --morado-neon: #7a3cff;     /* morado vibrante */
+    --naranja-atardecer: #ff8a3d; /* naranja del atardecer */
+    --amarillo-brillo: #ffd166; /* amarillo luminoso */
+    --cian-claro: #38e3ff;      /* cian / aguamarina claro */
+    --agua-profundo: #19a3a8;   /* aguamarina más profunda */
+    --violeta-cielo: #c78bd6;   /* púrpura suave del cielo */
+    --rosa-suave: #ffb3d9;      /* rosa pastel para transiciones */
+    --sombra-oscura: #0b0f17;   /* color muy oscuro para contraste */
+  
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+header{  
+     background-image: url('https://imgs.elpais.com.uy/dims4/default/c92837b/2147483647/strip/true/crop/1897x1304+119+0/resize/1440x990!/quality/90/?url=https%3A%2F%2Fel-pais-uruguay-production-web.s3.us-east-1.amazonaws.com%2Fbrightspot%2Fcc%2Fdf%2F6d671dd54d06915a6fceb490d9f2%2Fgrand-theft-auto-6.jpg');
+     font-size: 3rem;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--naranja-atardecer);
+    text-shadow: 2px 2px 4px var(--rosa-neon);
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  text-shadow: 5px 5px 9px var(--sombra-oscura);
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 30px;
+}
+
+a:hover{
+    color: red;
+    transition: 0.5s;
+}
+h1{
+    color: var(--naranja-atardecer);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6rem;
+}
+#DESCUBRE{
+    text-align: center;
+}
+#intro{
+    background-image: url(AA1FIuyo.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 60rem;
+    text-align: center;
+    text-shadow: 8px 8px 12px var(--rosa-neon);
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-size: 40px;
+    display: flex;
+    color: rgb(0, 0, 0);
+    flex-direction:column;
+    justify-content: center;
+}
+#contenido-intro{
+    background-color: rgba(255, 0, 0, 0.37);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+#titulo{
+    margin-top: 90px;
+}   
+@media (max-width: 768px) {
+    #intro {
+        font-size: 32px;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+}
+nav{
+      letter-spacing: 3px;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+footer{
+    background-color: var(--sombra-oscura);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    width: 100%;
+}
+#boton-saber-mas {
+    color: var(--rosa-neon);
+    margin-top: 60px;
+
+}
+#saber-mas {
+    background-color: var(--agua-profundo);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+/* Noticias */
+#noticias{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+     background-position: center;
+    background-size: cover;
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2023/12/gta-6-3241584.jpg?tf=3840x');
+    color: white;
+
+}
+article{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+      text-align: center;
+    text-shadow: 2px 2px 8px var(--sombra-oscura);
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#fecha{
+    background-image: url('https://godlike.host/wp-content/uploads/2025/06/4.jpg.webp');
+}
+#lucia_jason{
+    background-image: url('https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2025/05/todo-sabemos-gta-6-precio-fecha-lanzamiento-historia-personajes-novedades-jugables-regreso-vice-city-actividades-4323284.jpg?tf=1200x1200');
+}
+#vice_city{
+    background-image: url('https://preview.redd.it/21-years-apart-gta-vice-city-2002-and-gta-6-2023-v0-f6z8ioxrwj4c1.jpeg?auto=webp&s=b60f0a3f2f4f36825fccfd669b0bba1fed8ad5b2');
+}
+#detalles{
+    background-image: url('https://fotografias-2.larazon.es/clipping/cmsimages01/2025/07/03/7C482181-ADC5-4240-937E-0806AC964FB9/gta-6-sigue-logrando-records-incluso-antes-lanzamiento_98.jpg?crop=1900,1069,x0,y0&width=1900&height=1069&optimize=low&format=webply');
+}
+#notis{
+    background-color: rgba(0, 0, 0, 0.445);
+}
+#mas-noticias{
+    background-color: var(--sombra-oscura);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
